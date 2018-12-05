@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: dhawan10:jenkins-demo:latest
+          image: dhawan10/jenkins-demo:latest
           ports:
             - name: http-port
               containerPort: 9090
